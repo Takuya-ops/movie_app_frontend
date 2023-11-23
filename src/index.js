@@ -36,15 +36,15 @@ const router = createBrowserRouter([
         element: <EditMovie/>
       },
       {
-        path: "manage-catalogue",
+        path: "/manage-catalogue",
         element: <ManageCatalogue/>
       },
       {
-        path: "graphql",
+        path: "/graphql",
         element: <GraphQL/>
       },
       {
-        path: "login",
+        path: "/login",
         element:<Login/>
       },
 
