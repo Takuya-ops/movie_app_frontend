@@ -1,5 +1,5 @@
 # 使用技術
-BootStrap
+BootStrap<br>
 React(Javascript):useState, useEffect, navigation, Outlet
 
 # 実装内容
