@@ -11,15 +11,15 @@ const Movies = () => {
         title: "もののけ姫",
         release_date: "1996-03-01",
         runtime: 116,
-        mpaa_rating : "R",
+        mpaa_rating : "PG12",
         description: "人間と森の共生",
       },
       {
         id: 2,
         title: "千と千尋の神隠し",
         release_date: "2001-07-23",
-        runtime: 116,
-        mpaa_rating : "R",
+        runtime: 117,
+        mpaa_rating : "G",
         description: "主人公の成長の物語",
       },
     ];
@@ -35,7 +35,7 @@ const Movies = () => {
           <tr>
             <th>映画</th>
             <th>公開日</th>
-            <th>評価</th>
+            <th>映倫</th>
           </tr>
         </thead>
         <tbody>
