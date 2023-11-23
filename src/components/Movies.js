@@ -2,7 +2,7 @@ const Movies = () => {
   return (
     <>
      <div className="text-center">
-      <h2>Movies</h2>
+      <h2>映画</h2>
       <hr/>
      </div>
     </>

@@ -1,4 +1,4 @@
-import Home from "./components/Home";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <div className='col-md-2'>
           <nav>
             <div className='list-group'>
-              <a href="#!" className='list-group-item list-group-item-action'>ホーム</a>
-              <a href="#!" className='list-group-item list-group-item-action'>映画</a>
-              <a href="#!" className='list-group-item list-group-item-action'>ジャンル</a>
+              <a href="/" className='list-group-item list-group-item-action'>ホーム</a>
+              <a href="/movies" className='list-group-item list-group-item-action'>映画</a>
+              <a href="/genres" className='list-group-item list-group-item-action'>ジャンル</a>
               <a href="#!" className='list-group-item list-group-item-action'>映画を追加</a>
               <a href="#!" className='list-group-item list-group-item-action'>カタログを管理</a>
               <a href="#!" className='list-group-item list-group-item-action'>GraphQL</a>
@@ -27,7 +27,8 @@ function App() {
           </nav>
         </div>
         <div className='col-md-10'>
-          <Home/>
+          {/* 選択されたコンポーネントを表示 */}
+          <Outlet/>
         </div>
       </div>
     </div>
