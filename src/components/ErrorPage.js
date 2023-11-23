@@ -7,7 +7,7 @@ export default function ErrorPage() {
     <div className="container">
       <div className="row">
         <div className="col-md-6 offset-md-3">
-          <h1 className="mt-3">Oops!</h1>
+          <h1 className="mt-3">Error</h1>
           <p>申し訳ありません、予期しないエラーが発生しました。</p>
           <p>
             <em>{error.statusText || error.message}</em>
