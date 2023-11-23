@@ -1,3 +1,11 @@
+# 使用技術
+BootStrap
+React(Javascript):useState, useEffect, navigation, Outlet
+
+# 実装内容
+ログイン、ログアウト機能（エラーメッセージの表示）
+ページ切り替え
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
